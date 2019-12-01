@@ -1,0 +1,189 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: #010101;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.title {
+  text-align: center;
+  padding: 120px 0 90px 0;
+}
+.title__main {
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 32px;
+}
+.title__text {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.header {
+  padding: 58px 0 110px;
+  background: #fcdb00;
+  color: #000;
+}
+.header .menu {
+  margin-top: 10px;
+}
+.header .menu__item {
+  margin: 0 57px;
+}
+.header .menu__item a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+}
+.header .menu__item a:hover {
+  transition: all 0.3s ease;
+  color: #4e4e4e;
+}
+.header .offer {
+  margin-top: 135px;
+}
+.header .offer__title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.header .offer__subtitle {
+  font-size: 20px;
+  line-height: 1.3em;
+  color: #313841;
+}
+.header .offer__text {
+  font-size: 16px;
+  margin: 20px 0 40px;
+  color: #555;
+  max-width: 400px;
+}
+.header .offer .icons {
+  margin: 0 -18px;
+}
+.header .offer .icons__item {
+  padding: 0 18px;
+}
+.header .offer .icons__item i {
+  color: #010101;
+  font-size: 39px;
+}
+.header .offer .icons__item i:hover {
+  transition: all 0.3s ease;
+  color: #4e4e4e;
+}
+.header .ipad {
+  display: block;
+  margin: 70px auto;
+  max-width: 100%;
+}
+
+.features .feature {
+  padding: 0 20px;
+}
+.features .feature__icon {
+  font-size: 33px;
+}
+.features .feature__body {
+  margin: 0 0 80px 35px;
+}
+.features .feature__title {
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0 0 15px 0;
+}
+.features .feature__text {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.touch {
+  background: #010101;
+}
+.touch .title {
+  padding-bottom: 40px;
+}
+.touch .title__main {
+  color: #fcdb00;
+}
+.touch .title__text {
+  color: #898989;
+}
+.touch .form {
+  text-align: center;
+}
+.touch .form__input {
+  padding: 14px 0 14px 20px;
+  border-radius: 5px;
+  width: 580px;
+  margin-right: 20px;
+}
+.touch .form__input::placeholder {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  color: #898989;
+  line-height: 20px;
+  font-weight: 400;
+}
+.touch .form__btn {
+  font-family: "PT Sans", sans-serif;
+  background: #fcdb00;
+  border-radius: 5px;
+  font-weight: 700;
+  width: 125px;
+  border: 0;
+  padding: 14px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.footer {
+  background: #010101;
+  padding: 50px 0 94px;
+}
+.footer .credits {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 20px;
+}
+
+/*------MEDIA-----*/
+@media screen and (max-width: 992px) {
+  .header .menu__item {
+    margin: 0 20px;
+  }
+  .header .logo {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .header .offer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .touch .form__input {
+    width: 100%;
+    margin-right: 0;
+  }
+  .touch .form__btn {
+    width: 50%;
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
